@@ -4,7 +4,7 @@ pipeline { //Pipeline declarativo
     stages {
         stage('Imprimir Hola Mundo'){
             steps {
-                bat "01 Python.py"
+                sh "python3 01 Python.py"
             }
 
         }
